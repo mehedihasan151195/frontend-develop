@@ -1,0 +1,18 @@
+.heading {
+	background-color:#6699ff;
+	color: white;
+	text-align: center;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	font-size: 50px;
+}
+.button {
+	background-color: #6699ff;
+	padding: 10px;
+	color: #ffffff;
+	text-decoration: none;
+}
+.button:hover {
+	background-color: #3377ff;
+	color: #ffff66;
+}

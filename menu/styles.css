@@ -1,0 +1,42 @@
+.header{
+	background-color: gray;
+	padding: 30px;
+	text-align: center;
+	font-size: 40px;
+	color: white;
+}
+.menu{
+	width:100%;
+	background-color: #FF0101;
+	min-height: 40px;
+
+}
+
+.menu ul{
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+.menu ul li{
+	float:left;
+	list-style:none;
+	border-right: 1px solid gray;
+		
+}
+.menu ul li:hover{
+	box-shadow: 0px 1px 10px;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	padding: 10px 15px;
+	display: block;
+	color:white;
+	font-family: arial;
+}
+
+.menu ul li a:hover{
+	color: yellow;
+}
+

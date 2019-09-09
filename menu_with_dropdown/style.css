@@ -1,0 +1,57 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background:url(nature.jpg);
+	background-size: cover;
+	box-sizing: border-box;
+}
+
+.menu-bar{
+	background: gray;
+	text-align: center;
+
+}
+
+.menu-bar ul{
+	list-style: none;
+	display: inline-flex;
+	position: relative;
+	
+}
+
+.menu-bar ul li{
+	width: 120px;
+	margin: 15px;
+	padding: 15px;
+}
+
+.menu-bar ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.active, .menu-bar ul li:hover{
+	background-color: #5d4949;
+	border-radius: 10px;
+
+}
+
+.menu-bar .fa{
+	margin-right: 10px;
+}
+
+.sub-menu-1{
+	
+	}
+
+.menu-bar ul li:hover .sub-menu-1{
+	display: block;
+	position: absolute;
+	background-color: red;
+	margin-top: 15px;
+	margin-left: -15px;
+
+}

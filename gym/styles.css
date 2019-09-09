@@ -1,0 +1,20 @@
+body{
+	padding-left: 100px;
+	padding-right: 100px;
+
+}
+.headerimage {
+	background-color: blue;
+	color: white;
+	font-size: 100px;
+}
+	.comlogo {
+		background-color: gray;
+		float: left;
+		padding: 50px;
+	}
+	.nav{
+		padding-bottom: 20px;
+		float:right;
+		background-color: blue;
+	}

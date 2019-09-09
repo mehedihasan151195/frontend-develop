@@ -1,0 +1,40 @@
+
+.header{
+	background-color: #D700F8;
+	margin: 0px;
+	padding: 50px;
+	text-align: center;
+	font-family: impact;
+	font-size: 30px;
+}
+.menu{
+	background-color: #888983;
+	width: 100%;
+	min-height: 40px;
+}
+.menu ul{
+padding: 0px;
+margin: 0px;
+
+}
+.menu ul li{
+float: left;
+list-style: none;
+padding: 10px 15px;
+display: block;	
+border-left: 1px solid white;
+}
+.menu ul li:hover{
+	box-shadow: 0px 1px 10px;
+}
+.menu ul li a{
+	font-family: arial;
+	color: white;
+	text-decoration: none;
+	padding: 20px;
+	
+}
+.menu ul li:hover{
+	background-color: pink;
+	
+}
