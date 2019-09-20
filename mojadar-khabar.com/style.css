@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    
+    
+    
+}
+
+body{
+  background-color: rgb(228, 227, 226);
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.mainheader{
+    padding-top: 20px;
+    background:url("http://anjaliservice.com/images/about-us-banner.jpg");
+    background-size: cover;
+    
+}
+
+.mainheader h1{
+    background-color: rgba(255, 255, 255, .92);
+    font-family: 'Hind Siliguri', sans-serif;
+    color: red;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px solid black;
+    
+}
+
+.mainheader h2{
+    text-align: center;
+}
+
+.mainheader p{
+    background-color: rgba(255, 255, 255, .92);
+    color: #b71818;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-family: 'Atma', cursive;
+}
+
+.nav{
+    background-color: rgb(212, 71, 71);
+    height: 40px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.nav span{
+    color: white;
+    line-height: 40px;
+    font-size: 20px;
+
+}
+#food{
+    background-color: #ff4545;
+    font-weight: bold;
+}
+
+article{
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #e75a40;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+article h1{
+    color: #ff6347;
+}
+
+footer{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-weight: bold;
+}
