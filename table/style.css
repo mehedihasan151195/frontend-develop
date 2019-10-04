@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(224, 217, 224);
+}
+
+h1{
+    color:blue;
+}
+.table-content{
+    background-color: blue;
+    border: 3px solid yellow;
+    width: 400px;
+    height: 100px;
+}
+
+.table-content tr th{
+    color:white;
+}

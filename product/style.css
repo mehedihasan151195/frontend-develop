@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+}
+
+.header{
+    min-height: 100px;
+    background-color: #ff3300;
+    border-bottom: 3px solid rgb(104, 0, 0);
+    
+
+}
+
+.logo{
+
+}
+
+.logo{
+    color: white;
+    line-height: 100px;
+    float:left;
+    margin-left: 100px;
+
+}
+
+#main-name{
+    font-size: 30px;
+    font-weight: bold;
+    color: orange;
+}
+
+#sub-name{
+    font-size: 30px;
+    font-weight: normal;
+    
+}
+
+.menu{
+float:right;
+}
+
+.menu ul{
+    list-style: none;
+
+}
+
+.menu ul li{
+    float:left;
+    margin-top: 30px;
+    margin-right: 50px;
+    
+    
+
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(136, 13, 13);
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+}
+
+.menu ul li:hover{
+    background-color:#aa2200;
+    border-bottom: 2px solid white;
+}
+
+.menu ul li a:hover{
+    color: white;
+}
+
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+}
+
+.fa{
+    padding-right: 5px;
+    
+}
+
+
+.main-section{
+    padding-left: 50px;
+    padding-right: 50px;
+    background: url('https://images.unsplash.com/photo-1559456751-057ed03f3143?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=776&q=80') no-repeat;
+    background-size:cover;
+    opacity: 0.9;
+    height: 1000px;
+}
+
+.article{
+    
+}
+
+.article h1{
+    padding-top: 50px;
+    color: white;
+}
+
+.article p{
+    color: white;
+    line-height: 30px;
+}
+
+.product-grid{
+    min-height: 300px;
+    width: 20%;
+    background-color: rgb(238, 15, 15);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0px 2px 5px;
+    float: left;
+}
+
+.product-grid h2{
+text-align: center;
+color:rgb(255, 208, 0);
+}
+
+.product-grid p{
+text-align: center;
+font-weight: bold;
+}
+
+.product-grid img{
+    width: 80%;
+    height: 200px;
+    display: block;    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.price-btn{
+    background-color: blue;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+
+    
+}
+
+.price-btn a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
