@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(40, 40, 175);
+    height: 700px;
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.header{
+    min-height: 100px;
+    background-color: blue;
+    border-bottom: 2px solid gray;
+}
+
+.logo h1{
+    color: white;
+    font-size: 40px;
+    padding-left: 100px;
+    line-height: 100px;
+    float:left;
+}
+
+.login{
+    float:right;
+    padding-right: 100px;
+}
+
+.email{
+    float:left;
+    padding-top: 20px;
+    color: white;
+    line-height: 25px;
+    font-weight: 700;
+}
+
+.email input[type=text]{
+    width: 200px;
+    height: 25px;
+    border:1px solid gray;
+}
+
+
+.password{
+    margin-left: 30px;
+    float:left;
+    padding-top: 20px;
+    color:white;
+    line-height: 25px;
+    font-weight: 700;
+}
+
+.password input[type=password]{
+    width: 200px;
+    height: 25px;
+    border:1px solid gray;
+}
+#btn{
+    margin-top: 45px;
+    margin-left: 20px;
+    float:right;
+    border: none;
+    background-color: blueviolet;
+    color:white;
+    font-weight: bold;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 2px solid gray;
+}
+
+
+.left-side{
+    
+    width: 60%;
+    float:left;
+    min-height: 500px;
+}
+
+.left-side h2{
+    color: white;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+.left-side img{
+    padding:30px;
+    margin-left: 150px;
+    width: 50%;
+    
+}
+
+.right-side{
+}
+
+.right-side h1{
+    color: white;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.right-side p{
+    color: white;
+    padding-bottom: 10px;
+}
+
+.right-side input[type=text]{
+    width: 250px;
+    height: 30px;
+    border-radius: 3px;
+    border:none;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.right-side input[type=email]{
+    width: 513px;
+    height: 30px;
+    border-radius: 3px;
+    border:none;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.right-side input[type=password]{
+    width: 513px;
+    height: 30px;
+    border-radius: 3px;
+    border:none;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.right-side input[type=date]{
+    width: 200px;
+    height: 30px;
+    border-radius: 3px;
+    border:none;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+span{
+    color: white;
+}
+
+#para{
+    padding-top: 20px;
+    color: white;
+}
+
+#para a{
+    color: rgb(0, 1, 80);
+}
+
+#sign-btn{
+    margin-top: 10px;
+    margin-left: 200px;
+    cursor: pointer;
+    border: 1px solid gray;
+    padding: 10px 40px;
+    color: white;
+    font-size: 20px;
+    background-image: linear-gradient(blue, blueviolet);
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+#sign-btn:hover{
+    background-image: linear-gradient(blueviolet, blue);
+}
