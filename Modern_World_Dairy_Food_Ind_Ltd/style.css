@@ -1,0 +1,29 @@
+.heading{
+	background-color: blue;
+	padding-top: 25px;
+	min-height: 100px;
+}
+
+.logo{
+	float: left;
+	padding-left: 100px;
+}
+
+.logo h1{
+	color: white;
+}
+
+.company-name{
+	float: right;
+	padding-right: 100px;
+	color: yellow;
+}
+
+.container h1 {
+	color: blue;
+}
+
+.container p{
+	color: blue;
+	text-align: justify;
+}
